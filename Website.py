@@ -18,13 +18,13 @@ def main():
     problem = st.text_area("Enter a mathematical problem:")
 
 
-    if problem:
-        # Solve the problem
-        solution = solve_math_problem(problem)
+    # if problem:
+    #     # Solve the problem
+    #     solution = solve_math_problem(problem)
         
-        # Display the result with MathJax rendering
-        st.markdown(f"**Solution:**")
-        st.markdown(solution)
+    #     # Display the result with MathJax rendering
+    #     st.markdown(f"**Solution:**")
+    #     st.markdown(solution)
     
     if st.button("Giải bài"):
         if problem:
