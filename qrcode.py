@@ -17,6 +17,6 @@ qr.make(fit=True)
 
 # Create an image from the QR code
 img = qr.make_image(fill='black', back_color='white')
-img.save("/mnt/data/qrcode_link.png")
+img.save("/mnt/data/qrcode_link")
 
 "/mnt/data/qrcode_link.png"
